@@ -1,12 +1,12 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 const userSchema = new mongoose.Schema({
-    userID:{
-        type: "String",
+    userId:{
+        type: String,
         required: true
     },
-    socketID:{
-        type: "String",
+    socketId: {
+        type: String,
         required: true
     }
 })
