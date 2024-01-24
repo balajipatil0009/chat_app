@@ -8,6 +8,7 @@ import Login from './pages/Login.jsx'
 import Resister from './pages/Resister.jsx'
 import GroupChat from './pages/GroupChat.jsx'
 import Chat from './pages/Chat.jsx'
+import Error from './pages/Error.jsx'
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: '/chats',
     element: <Chat/>
+  },
+  {
+    path:'/error',
+    element:<Error/>
   }
 ]);
 
