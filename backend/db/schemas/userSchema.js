@@ -7,6 +7,10 @@ const userSchema = new mongoose.Schema({
     },
     socketId: {
         type: String,
+        default:""
+    },
+    pass:{
+        type: String,
         required: true
     }
 })

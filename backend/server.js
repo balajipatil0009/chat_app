@@ -4,6 +4,7 @@ require("./db/conn.js")
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const app = express()
+require('dotenv').config()
 
 const http = require("http").createServer(app);
 
@@ -22,7 +23,7 @@ app.use(cors(corsOptions));
 
 const { log } = require('console');
 
-const io = require('socket.io')(http)
+const io = require('socket.io')(http,{cors: corsOptions})
 
 const chat= require("./controllars/chat.js")
 
@@ -34,7 +35,7 @@ app.get('/',async(req, res)=>{
   res.sendFile(__dirname+"/public/index.html")
 })
 
-http.listen(3000,()=>{
+http.listen(3001,()=>{
     console.log("connected");
 })
 

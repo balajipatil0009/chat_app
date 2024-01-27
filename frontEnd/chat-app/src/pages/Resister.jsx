@@ -26,7 +26,7 @@ const Resister = () => {
   return (
     <>
     <form className='w-[40vw] h-[80vh]' onSubmit={handleSubmit}>
-       <h3 className='text-center text-2xl'>login page</h3>
+       <h3 className='text-center text-2xl'>resister page</h3>
        <div className='w-[60%] h-[60%] mx-[20%] my-[10%] border flex justify-center items-center'>
           <div>
           <input type="text" name='email' placeholder='ENTER Email' className='border p-[2%] border-b-zinc-600 border-x-0 border-t-0' onChange={handleChange} value={data.email}/><br/>

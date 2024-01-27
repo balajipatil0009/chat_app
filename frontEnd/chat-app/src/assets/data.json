@@ -1,0 +1,239 @@
+[
+  {
+    "members": ["balaji2", "rajesh"],
+    "chats": [
+      {
+        "from": "rajesh",
+        "to": "balaji",
+        "msg": "hii balaji",
+        "_id": "65aff6077ed06677f9dd4847",
+        "timestam": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "rajesh",
+        "to": "balaji",
+        "msg": "hii rajesh\n",
+        "_id": "65aff9295742400f0a5335e9",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji",
+        "to": "rajesh",
+        "msg": "how are you rajesh",
+        "_id": "65b000a90e38b6457b270b1a",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji",
+        "to": "rajesh",
+        "msg": "how are you rajesh",
+        "_id": "65b000de0e38b6457b270b24",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "rajesh",
+        "to": "balaji",
+        "msg": "hii",
+        "_id": "65b000fd051d26a3f199bee0",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji",
+        "to": "rajesh",
+        "msg": "hii rajesh",
+        "_id": "65b0010b051d26a3f199beee",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji",
+        "to": "rajesh",
+        "msg": "hi rajesh its 2:13",
+        "_id": "65b1767776d47dc513fdbb05",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "rajesh",
+        "to": "balaji",
+        "msg": "hii 2:21",
+        "_id": "65b17845e86af70409f23505",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji",
+        "to": "rajesh",
+        "msg": "hii 2:22\n",
+        "_id": "65b1787fe86af70409f23524",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+
+      {
+        "from": "rajesh",
+        "to": "balaji",
+        "msg": "hii 2:23",
+        "_id": "65b1788ae86af70409f2353a",
+        "timestamp": { "$date": { "$numberLong": "1706129546551" } }
+      }
+    ],
+    "groupChat": false,
+    "groupName": "",
+    "createdAt": "2023-11-23T18:10:19.308Z"
+  },
+  {
+    "members": ["balaji2", "rajesh"],
+    "chats": [
+      {
+        "from": "rajesh",
+        "to": "balaji2",
+        "msg": "hii balaji2",
+        "_id": "65aff6077ed06677f9dd4847",
+        "timestam": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "rajesh",
+        "to": "balaji2",
+        "msg": "hii rajesh\n",
+        "_id": "65aff9295742400f0a5335e9",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji2",
+        "to": "rajesh",
+        "msg": "how are you rajesh",
+        "_id": "65b000a90e38b6457b270b1a",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji2",
+        "to": "rajesh",
+        "msg": "how are you rajesh",
+        "_id": "65b000de0e38b6457b270b24",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "rajesh",
+        "to": "balaji2",
+        "msg": "hii",
+        "_id": "65b000fd051d26a3f199bee0",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji2",
+        "to": "rajesh",
+        "msg": "hii rajesh",
+        "_id": "65b0010b051d26a3f199beee",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji2",
+        "to": "rajesh",
+        "msg": "hi rajesh its 2:13",
+        "_id": "65b1767776d47dc513fdbb05",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "rajesh",
+        "to": "balaji2",
+        "msg": "hii 2:21",
+        "_id": "65b17845e86af70409f23505",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji2",
+        "to": "rajesh",
+        "msg": "hii 2:22\n",
+        "_id": "65b1787fe86af70409f23524",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+
+      {
+        "from": "rajesh",
+        "to": "balaji22",
+        "msg": "hii 2:23",
+        "_id": "65b1788ae86af70409f2353a",
+        "timestamp": { "$date": { "$numberLong": "1706129546551" } }
+      }
+    ],
+    "groupChat": false,
+    "groupName": "",
+    "createdAt": "2023-11-23T18:10:19.308Z"
+  },
+  {
+    "members": ["balaji1", "rajesh"],
+    "chats": [
+      {
+        "from": "rajesh",
+        "to": "balaji1",
+        "msg": "hii balaji1",
+        "_id": "65aff6077ed06677f9dd4847",
+        "timestam": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "rajesh",
+        "to": "balaji1",
+        "msg": "hii rajesh\n",
+        "_id": "65aff9295742400f0a5335e9",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji1",
+        "to": "rajesh",
+        "msg": "how are you rajesh",
+        "_id": "65b000a90e38b6457b270b1a",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji1",
+        "to": "rajesh",
+        "msg": "how are you rajesh",
+        "_id": "65b000de0e38b6457b270b24",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "rajesh",
+        "to": "balaji1",
+        "msg": "hii",
+        "_id": "65b000fd051d26a3f199bee0",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji1",
+        "to": "rajesh",
+        "msg": "hii rajesh",
+        "_id": "65b0010b051d26a3f199beee",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji1",
+        "to": "rajesh",
+        "msg": "hi rajesh its 2:13",
+        "_id": "65b1767776d47dc513fdbb05",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "rajesh",
+        "to": "balaji1",
+        "msg": "hii 2:21",
+        "_id": "65b17845e86af70409f23505",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+      {
+        "from": "balaji1",
+        "to": "rajesh",
+        "msg": "hii 2:22\n",
+        "_id": "65b1787fe86af70409f23524",
+        "timestamp": "2024-01-23T18:10:19.308Z"
+      },
+
+      {
+        "from": "rajesh",
+        "to": "balaji1",
+        "msg": "hii 2:23",
+        "_id": "65b1788ae86af70409f2353a",
+        "timestamp": { "$date": { "$numberLong": "1706129546551" } }
+      }
+    ],
+    "groupChat": false,
+    "groupName": "",
+    "createdAt": "2023-11-23T18:10:19.308Z"
+  }
+]
