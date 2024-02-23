@@ -23,7 +23,9 @@ const Login = () => {
     if (data.email && data.pass) {
       try {
         const res = await axios.post('/login', data);
-        console.log(res);
+        if (res) {
+          navigate('/chats');
+        }
         setData({ email: '', pass: '' });
       } catch (e) {
         navigate('/Error');

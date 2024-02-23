@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 
 function PriChat(parms) {
   useEffect(() => {
-    console.log(parms);
+    // console.log(parms);
   }, []);
   return (
-    <>
+    <div key={parms.name + parms.index}>
       {parms.chats.item.from == parms.chats.name ? (
         <div className="w-[100%] flex justify-end">
           <div className="  rounded max-w-[50%] h-fit break-words">
@@ -27,7 +27,7 @@ function PriChat(parms) {
           </div>
         </>
       )}
-    </>
+    </div>
   );
 }
 

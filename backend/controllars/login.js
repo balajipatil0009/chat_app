@@ -26,13 +26,19 @@ const loginPost = async (req, res) => {
         const user = { userId: existUser.userId, pass: existUser.pass };
         const token = jwt.sign(user, secretKey, { expiresIn: '1h' });
         res.cookie('token', token, { httpOnly: true, maxAge: 3600000 }); // 1 hour expiration
+        res.cookie('userId', existUser.userId, {
+          httpOnly: true,
+          maxAge: 3600000,
+        }); // 1 hour expiration
         res.send('Login successful! JWT token has been set as a cookie.');
       } catch (e) {
         console.log(e);
         res.status(500).json({ error: 'An error accured' });
       }
     } else {
-      res.status(200).json({ error: 'User already exist' });
+      res
+        .status(204)
+        .json({ error: 'User not exist or password is incorrect' });
     }
   }
 };

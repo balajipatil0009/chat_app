@@ -1,42 +1,62 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
-const Names = (parms) => {
+const Names = (parm) => {
+  const [members, setMembers] = useState(null);
+  const [selected1, setSelected1] = useState(false);
   useEffect(() => {
-    console.log(parms.data.name);
     chatsUser();
-    if (parms.data.index == parms.data.selected) {
+    if (parm.data.index == parm.data.selected) {
+      // console.log('balaji ahe re');
       setSelected1(true);
     }
-    // console.log(parms.data.item.members);
+    // if (parms) {
+    //   if (parms.data.index == parms.data.selected) {
+    //     // console.log('balaji ahe re');
+    //     setSelected1(true);
+    //   }
+    // }
+    // // console.log(parms.data.item.members);
   }, []);
   const chatsUser = () => {
-    const indexToRemove = parms.data.item.members.indexOf(parms.data.name);
-    // Remove the element if it's found
+    const indexToRemove = parm.data.item.members.indexOf(parm.data.name);
+    // console.log(indexToRemove);
+    // console.log(parm.data.item.members[indexToRemove]);
+    if (indexToRemove >= 0) {
+      parm.data.item.members.splice(indexToRemove, 1);
+    }
+    setMembers(parm.data.item.members);
+    // console.log(parm.data.item.members);
   };
 
   return (
     <>
-      {parms.data.index == parms.data.selected ? (
-        <div
-          className="bg-gray-100 border mx-2 my-1 p-2 rounded"
-          id={parms.data.index}
-        >
-          <p className="text-lg" id={parms.data.index}>
-            {parms.data.item.members[0]}
-          </p>
-          <p className="text-sm text-gray-500" id={parms.data.index}>
-            {parms.data.chat}
-          </p>
-        </div>
+      {!parm ? (
+        <></>
       ) : (
-        <div id={parms.data.index} className="border mx-2 my-1 p-2 rounded">
-          <p id={parms.data.index} className="text-xl">
-            {parms.data.item.members[0]}
-          </p>
-          <p className="text-sm text-gray-500" id={parms.data.index}>
-            {parms.data.chat}
-          </p>
-        </div>
+        <>
+          {selected1 ? (
+            <div
+              className="bg-gray-100 border mx-2 my-1 p-2 rounded"
+              id={parm.data.index}
+            >
+              <p className="text-lg" id={parm.data.index}>
+                {parm.data.item.members[0]}
+              </p>
+              <p className="text-sm text-gray-500" id={parm.data.index}>
+                {parm.data.chat}
+              </p>
+            </div>
+          ) : (
+            <div id={parm.data.index} className="border mx-2 my-1 p-2 rounded">
+              <p id={parm.data.index} className="text-xl">
+                {parm.data.item.members[0]}
+              </p>
+              <p className="text-sm text-gray-500" id={parm.data.index}>
+                {parm.data.chat}
+              </p>
+            </div>
+          )}
+        </>
       )}
     </>
   );

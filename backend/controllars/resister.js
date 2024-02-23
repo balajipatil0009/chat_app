@@ -12,7 +12,7 @@ const resister = async (req, res) => {
       try {
         const user = await newUser.save();
         if (user) {
-          res.status(200).json({ massage: 'user saved succesfully' });
+          // res.status(200).json({ massage: 'user saved succesfully' });
           const userTok = { userId: user.userId, pass: user.pass };
           const token = jwt.sign(userTok, secretKey, { expiresIn: '1h' });
           res.cookie('token', token, { httpOnly: true, maxAge: 3600000 }); // 1 hour expiration
